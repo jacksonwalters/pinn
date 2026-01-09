@@ -65,7 +65,7 @@ Training is performed using stochastic gradient descent (e.g., Adam), with all s
 
 ---
 
-### 🇺🇸 American Options Extension
+### American Options Extension
 
 For **American-style options**, early exercise introduces a *free boundary condition*:
 
@@ -114,9 +114,9 @@ This section describes how the repository implements a Physics-Informed Neural N
 ### 1 — What the PINN learns
 
 The model approximates the option pricing function
-$$
-V(S, t; K, r, \sigma)
-$$
+
+$$V(S, t; K, r, \sigma)$$
+
 where:
 - `S` is the underlying asset price (spot),
 - `t` is the current time (measured in years),
