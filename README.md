@@ -1,6 +1,6 @@
 # PINN
 
-## 🧠 Physics-Informed Neural Networks (PINNs) for American-Style Option Pricing
+## Physics-Informed Neural Networks (PINNs) for American-Style Option Pricing
 
 ### Overview
 
@@ -14,7 +14,7 @@ This approach allows the network to:
 
 ---
 
-### ⚙️ The Black–Scholes PDE
+### The Black–Scholes PDE
 
 For a European-style call option with price $V(S, t)$, spot price $S$, time $t$, constant risk-free rate $r$, and volatility $\sigma$, the Black–Scholes equation is:
 
@@ -37,7 +37,7 @@ The PINN learns a function $\hat{V}_\theta(S, t, \sigma, K, r)$ whose derivative
 
 ---
 
-### 🧩 Loss Function Design
+### Loss Function Design
 
 The total training loss combines three key components:
 
@@ -94,7 +94,7 @@ Support for this is currently in development.
 
 ---
 
-### 📊 Visualization and Validation
+### Visualization and Validation
 
 After training, we visualize the PINN's predictions against analytic **Black–Scholes solutions** (for European-style options) under a constant volatility assumption:
 
