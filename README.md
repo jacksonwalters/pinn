@@ -113,11 +113,8 @@ This section describes how the repository implements a Physics-Informed Neural N
 
 ### 1 — What the PINN learns
 
-The model approximates the option pricing function
+The model approximates the option pricing function $V(S, t; K, r, \sigma)$ where:
 
-$$V(S, t; K, r, \sigma)$$
-
-where:
 - `S` is the underlying asset price (spot),
 - `t` is the current time (measured in years),
 - `K` is the option strike,
